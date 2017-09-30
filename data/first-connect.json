@@ -2,8 +2,7 @@
  "configs":[
   "/config.live.json",
   "/config.options.json",
-  "/lang/lang.{{lang}}.json",
-  "/modules.json"
+  "/lang/lang.{{lang}}.json"
  ],
  "title":"",
  "class":"col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6",

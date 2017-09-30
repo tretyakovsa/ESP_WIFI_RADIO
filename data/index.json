@@ -2,8 +2,7 @@
  "configs":[
   "/config.live.json",
   "/config.options.json",
-  "/lang/lang.{{lang}}.json",
-  "/modules.json"
+  "/lang/lang.{{lang}}.json"
  ],
  "title":"{{LangOptions1}}",
  "class":"col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6",
@@ -35,6 +34,39 @@
    "title":"<i class=\"opt-img\"></i> {{LangSetting3}}",
    "action":"/page.htm?setup",
    "class":"btn btn-block btn-default"
+  },
+
+  {
+   "type": "hr"
+  },
+
+  {
+   "type": "h2",
+   "title": "Radio link"
+  },
+  {
+   "type": "input",
+   "title": "{{LangDevice}}",
+   "name":"radio",
+   "state": "{{radio}}"
+  },
+  {
+   "type": "button",
+   "title": "{{LangSave}}",
+   "action": "radio?url=[[radio]]",
+   "class": "btn btn-block btn-success"
+  },
+
+  {
+   "type": "hr"
+  },
+  {
+   "type":"link",
+   "title":"<i class=\"opt-img\"></i> {{LangSetting3}}",
+   "action":"/page.htm?setup",
+   "class":"btn btn-block btn-default"
   }
+
+
  ]
 }
